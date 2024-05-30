@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "homework10 logo generator",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
